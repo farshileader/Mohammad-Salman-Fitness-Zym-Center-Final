@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f1f1f1;
+}
+.container {
+  max-width: 960px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  /* Increased border radius for the container */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,
+td {
+  padding: 15px;
+  /* Increased padding for table cells */
+  text-align: center;
+  /* Centered text in table cells */
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background: linear-gradient(to right, #d400ff, #eeff00);
+  /* Gradient background for table header */
+  color: #fff;
+}
